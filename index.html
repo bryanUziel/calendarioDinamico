@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Calendario</title>
+</head>
+<script type="text/javascript" src="script.js"></script>
+<link rel="stylesheet" type="text/css" href="estilos.css">
+<body>
+	<form id="formulario" onsubmit="return false;">
+		<p>
+			<label>Fecha inicio</label>
+			<input type="text" id="fechaInicio" name="fechaInicio">
+		</p>
+		<p>	
+			<label>Fecha Final</label>
+			<input type="text" id="fechaFinal" name="fechaFinal">
+		</p>
+		<p>
+			<label for="columnas">Cuantas columnas:</label>
+				<select id="columnas" name="columnas">
+  					<option value="1">1</option>
+  					<option value="2">2</option>
+  					<option value="3">3</option>
+  					<option value="4">4</option>
+  					<option value="5">5</option>
+  					<option value="6">6</option>
+  					<option value="7">7</option>
+  					<option value="8">8</option>
+  					<option value="9">9</option>
+  					<option value="10">10</option>
+				</select>
+		</p>
+		<input type="submit" id="submit"  value="enviar">
+	</form>
+	<h3>Fechas</h3>
+	<hr width="400">
+	<div id="calen">
+		<table id="tabla"></table>
+  	</div>
+</body>
+</html>

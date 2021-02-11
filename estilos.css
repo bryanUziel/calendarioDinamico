@@ -1,0 +1,29 @@
+ul{
+	list-style: none;
+	display: grid;
+	grid-template-columns: repeat(7, 1fr); 
+	padding: 0;
+}
+li{
+	text-align: right;
+}
+.day-name{
+	background: #eee;
+	font-weight: bold;
+}
+.calendario{
+	top: 0px;
+	text-align: center;
+	width: 100px;
+	position: static;
+}
+table {
+   width: auto;
+   border: 1px solid #000;
+}
+th, td {
+   width: 25%;
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid #000;
+}
